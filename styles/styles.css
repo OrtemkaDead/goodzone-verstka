@@ -213,6 +213,13 @@ p {
   color: #fff;
 
   border-radius: 16px;
+  border: 1px solid transparent;
+
+  transition: all .2s ease;
+}
+
+.sidebar-group__button:hover {
+  border-color: #fff;
 }
 
 .sidebar-group__button--no-margin {
@@ -410,10 +417,16 @@ p {
 
   background-color: #242424;
   border-radius: 12px;
+
+  transition: background-color .2s ease;
 }
 
 .filters__chip:last-child {
   margin-right: 0;
+}
+
+.filters__chip:hover {
+  background-color: #353434;
 }
 
 .filters__chip--active {
@@ -646,7 +659,7 @@ p {
     align-items: center;
   }
 
-  /* ? fillters */
+  /* ? filters */
   .filters {
     margin-top: 112px;
   }
