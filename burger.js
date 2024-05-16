@@ -1,4 +1,4 @@
-const burgerCheckbox = document.getElementById("sidebar__burger-checbox");
+const burgerCheckbox = document.getElementById("header__burger-checbox");
 const sidebar = document.getElementById("sidebar");
 
 burgerCheckbox.addEventListener("click", () => {
